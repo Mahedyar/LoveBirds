@@ -38,6 +38,7 @@
 .leftside{
     grid-area: leftside;
     background-image: url("Image/leftside.jpg");
+    background-repeat: round;
     display: flex;
     flex-direction: column;
     justify-content: end;
