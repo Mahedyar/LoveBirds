@@ -1,0 +1,85 @@
+:root{
+    primary-color : #696969 ;
+    secendary-color : #979797 ;
+
+}
+
+
+
+
+
+.MainContainer{
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /*padding-bottom: 500px;*/
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+.ContentHolder {
+    display: grid;
+    height: 80vh;
+    width: 70vw;
+    grid-template: 100fr/50fr 50fr;
+    grid-template-areas: "leftside rightside"
+
+
+}
+
+.leftside{
+    grid-area: leftside;
+    background-image: url("Image/leftside.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    color: white;
+
+}
+
+.rightside{
+    grid-area: rightside;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5vw;
+    font-size: 2rem;
+
+}
+
+.rightside h2 , h3 {
+    font-size: 2vw;
+}
+
+.rightside label {
+    font-size: 1vw;
+    text-align: left;
+}
+
+form{
+    margin-bottom: -20px;
+}
+
+a{
+    font-size: 1vw;
+    text-align:right;
+    color: green;
+}
+button{
+    border : 0 ;
+}
+
+
+
+
+
